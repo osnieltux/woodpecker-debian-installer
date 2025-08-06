@@ -34,7 +34,7 @@ check_code $? "Updating apt"
 DEBIAN_FRONTEND=noninteractive apt -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold"  upgrade -fy
 check_code $? "Upgrading"
 
-DEBIAN_FRONTEND=noninteractive apt -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold"  install -y  curl openssl docker.io docker-compose
+DEBIAN_FRONTEND=noninteractive apt -o Dpkg::Options::="--force-confdef" -o Dpkg::Options::="--force-confold"  install -y git-lfs curl openssl docker.io docker-compose
 check_code $? "Installing"
 
 useradd --system --no-create-home woodpecker
