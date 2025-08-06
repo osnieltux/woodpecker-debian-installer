@@ -10,6 +10,7 @@ Tested on Debian 12
    -  go to http://<forgejo_ip>:3000/user/settings/applications
    -  create your OAuth2
    -  set your URIs http://<your_woodpecker_domain>:8000/authorize
+   -  WOODPECKER_FORGEJO_URL=http://<forgejo_ip>:3000/
    -  WOODPECKER_FORGEJO_CLIENT=
    -  WOODPECKER_FORGEJO_SECRET=
     
