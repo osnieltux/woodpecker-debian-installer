@@ -1,5 +1,5 @@
 # woodpecker-debian-installer
-Script to facilitate the installation of Woodpecker
+Script to facilitate the installation of [Woodpecker](https://woodpecker-ci.org/)
 Tested on Debian 12
 
 ### 🚀 Install example (change <your_domain> for your real domain)
