@@ -63,7 +63,7 @@ WOODPECKER_FORGEJO_SECRET=
 
 WOODPECKER_AGENT_SECRET=$AGENT_SECRET" > /etc/woodpecker/woodpecker-server.env
 
-eco "WOODPECKER_SERVER=localhost:9000
+echo "WOODPECKER_SERVER=localhost:9000
 WOODPECKER_BACKEND=docker
 WOODPECKER_AGENT_SECRET=$AGENT_SECRET" > /etc/woodpecker/woodpecker-agent.env
 
