@@ -6,7 +6,7 @@ Tested on Debian 12
 ### 🚀 Install example (change <your_domain> for your real domain)
     curl -fsSL https://raw.githubusercontent.com/osnieltux/woodpecker-debian-installer/refs/heads/main/install_woodpecker.sh | bash -s -- <your_domain>
 
-### 🪛 Configure your /etc/woodpecker/woodpecker-server.env,
+### 🪛 Configure your /etc/woodpecker/woodpecker-server.env
    -  go to http://<forgejo_ip>:3000/user/settings/applications
    -  create your OAuth2
    -  set your URIs http://<your_woodpecker_domain>:8000/authorize
