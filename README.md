@@ -16,3 +16,8 @@ Tested on Debian 12
     
 ### 🗺️ Access
    - http://<your_domain><your_domain>:8000
+
+---
+
+### 💸 Sponsors
+  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/osnieltux)
